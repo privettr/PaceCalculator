@@ -1,0 +1,69 @@
+html {
+    background-color: black;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: black;
+}
+
+#container {
+    background-image: url('runner.svg');
+    padding-left : 2vmin;
+    padding-right: 2vmin;
+    padding-bottom: 2vmin;
+    text-align: center;
+    font-size: 4vmin;
+    background-color: rgb(50,50,50);
+    border: none;
+    color: white;
+    font-family: sans-serif;
+    width: 100vmin;
+    border-radius: 20px;
+}
+
+#distance {
+    width: 8vmin;
+}
+
+#hours {
+    width: 8vmin;
+}
+
+#minutes {
+    width: 8vmin;
+}
+
+#seconds {
+    width: 8vmin;
+}
+
+button {
+    padding: 1vmin;
+    border: none;
+    border-radius: 10px;
+    transition: all 400ms;
+}
+
+#calculate {
+    background-color: #66FF00;
+}
+
+#calculate:hover {
+    background-color: #ADFF2F;
+}
+
+#reset {
+    background-color: #fb4f14;
+}
+
+#reset:hover {
+    background-color: #ff7518;
+}
+
+hr {
+    width: 90%;
+}
